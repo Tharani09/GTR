@@ -1,0 +1,325 @@
+
+.first{
+	border:1px solid none;
+	box-shadow: 5px 5px 5px  black;
+}
+.first img{
+	width:10%;
+	height:100%;
+	padding-left:30px;
+}
+.first h1{
+	position: absolute;
+	right:15%;
+	top:1%;
+	font-family: 'Monotype Corsiva';
+	color:rgb(155,0,255);
+	font-size:50px;
+}
+.second{
+	border:1px solid white;
+	height:100%;
+	background-color:antiquewhite;
+	text-align: center; 
+	box-shadow: 5px 5px 5px black; 
+}
+.second a{
+	font-size: 20px;
+	padding-left: 20px;
+     margin:1%;
+     border:none;
+     color: blue;
+}
+.third div img{
+	width:60%;
+	height:100%;
+}
+.third div{
+	border:1px solid none;
+	width:30%;
+	height:100%;
+	padding:4%;
+	margin:1%;
+	text-align:center;
+	justify-content: space-around;
+	background-color:aliceblue;
+	transition: all 2s ease;
+
+}
+.third p{
+	font-size: 20px;
+	padding-left: 25px;
+	width:80%;
+}
+.third{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.third div video{
+	width: 200px;
+	height: 200px;
+}
+.third div:hover{
+	background-color:lightskyblue;
+	cursor: pointer;
+}
+footer{
+	text-align: center;
+	background-color: grey;
+	color:white;
+}
+button{
+	margin-left:40%;
+	width:10%;
+	height:45px;
+	border:1px solid white;
+	border-radius: 20px;
+	background-color: orange;
+	color:white;
+	font-size: 20px;
+}
+button:hover{
+	background-color: black;
+	color: white;
+	cursor:pointer;
+}
+.first1{
+	border:1px solid none;
+	box-shadow: 5px 5px 5px  black;
+}
+.first1 img{
+	width:10%;
+	height:100%;
+	padding-left:30px;
+}
+.first1 h1{
+	position: absolute;
+	right:15%;
+	top:1%;
+	font-family: 'Monotype Corsiva';
+	color:hotpink;
+	font-size:50px;
+}
+.second1 img{
+	width:100%;
+	height:50px;
+}
+.second1{
+	border:1px solid white;
+	height:100%;
+	background-color:antiquewhite;
+	text-align: center; 
+	box-shadow: 5px 5px 5px black; }
+.second1 a{
+	font-size: 20px;
+     margin:1%;
+     color: blue;
+     padding-left: 20px;
+}
+.third1 div img{
+	width:40%;
+	height: 50%;
+	position: absolute;
+	right:50px;
+}
+.third1{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
+.third1 div p{
+	width:50%;
+	font-size: 20px;
+	padding-left: 30px;
+}
+.third1 div img{
+	width:30%;
+	height:40%;
+}
+.third1 div h2{
+	padding-left: 200px;
+}
+.third1 div:hover{
+	background-color:lightskyblue;
+	cursor: pointer;}
+footer:hover{
+       background-color: black;
+       cursor: pointer;
+}
+.first2{
+	border:1px solid none;
+	box-shadow: 5px 5px 5px  black;
+}
+.first2 img{
+	width:10%;
+	height:100%;
+	padding-left:30px;
+}
+.first2 h1{
+	position: absolute;
+	right:10%;
+	top:1px;
+	font-family: 'Monotype Corsiva';
+	color:hotpink;
+	font-size:50px;
+}
+.second2 img{
+	width:100%;
+	height:50px;
+}
+.second2{
+	border:1px solid white;
+	height:100%;
+	background-color:antiquewhite;
+	text-align: center; 
+	box-shadow: 5px 5px 5px black; }
+.second2 a{
+	font-size: 20px;
+     margin:1%;
+     color: blue;
+     padding-left: 20px;
+}
+.third2{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.third2 img{
+	width:100%;
+	height:300px;
+}
+body:hover{
+	background-color:lightskyblue;
+	cursor: pointer;}
+.four2 input{
+	margin-left: 500px;
+	width:25%;
+	height:25px;
+	border:1px solid black;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+.four2 label{
+	padding-left: 500px;
+	margin-top: 1%;
+}
+.five2 input{
+	width:120px;
+	height:35px;
+	border-radius: 20px;
+	border:1px solid black;
+	background-color:skyblue;
+	color:white;
+	margin-left:750px;
+	color: black;
+}
+.five2 input:hover{
+	background-color: red;
+	cursor: pointer;
+	color: white;
+}
+
+@media only screen and (min-width:320px) and (max-width:767px){
+	body{
+		background-color: lavender;
+	}
+	.first h1{
+		font-size: 15px;
+		color:red;
+	}
+	button{
+		width:90px;
+		font-size: 15px;
+		background-color: blue;
+	}
+	footer{
+		font-size: 10px;
+	}
+	.third div{
+		background-color:darkseagreen;
+	}
+	button:focus{
+		outline: none;
+
+	}
+	.third div video{
+	width: 100px;
+	height: 100px;
+}
+}
+@media only screen and (min-width:320px) and (max-width:767px) {
+	body{
+		background-color:lavender;
+	}
+	.first1 h1{
+		font-size:15px;
+		color:red;
+	}
+	.third1 div img{
+	width:30%;
+	height:30%;
+	position: absolute;
+	right:50px;
+   }
+	.third1 div p{
+		font-size: 10px;
+		padding-left:10px;
+	}
+	.third1 div h2{
+		padding-left: 100px;
+    }
+}
+@media only screen and (min-width:320px) and (max-width:767px) {
+	body{
+		background-color:lavender;
+	}
+	.first2 h1{
+		top:0%;
+		right:10%;
+		font-size: 20px;
+		color:red;
+	}
+	.five2 input{
+	margin-left:200px;}
+.four2 label{
+	padding-left: 150px;
+}
+.four2 input{
+	margin-left:150px;
+	width:35%;
+	height:20px;
+	border:1px solid black;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+}
+@media only screen and (min-width:768px) and (max-width:1023px) {
+   body{
+   	background-color:antiquewhite;
+   }
+   .first h1{
+   	font-size: 25px;
+   }
+   button{
+   	font-size: 15px;
+   	width:15%;
+   	background-color:red;
+   }
+} 
+@media only screen and (min-width:768px) and (max-width:1023px) {
+         .first1 h1{
+   	font-size: 25px;
+   }
+}
+@media only screen and (min-width:768px) and (max-width:1023px) {
+         .first2 h1{
+   	          font-size: 25px;
+   	          color: blue;
+   }
+   .five2 input{
+   	   margin-left:500px;
+   }
+}
